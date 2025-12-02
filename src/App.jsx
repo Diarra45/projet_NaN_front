@@ -6,8 +6,7 @@ import {
   Folder, ListTodo, Grid3x3
 } from "lucide-react";
 
-const API_BASE = "http://localhost:3000";
-
+const API_BASE = "https://projet-nan-backend.onrender.com";
 // API Service complet avec corrections
 const api = {
   register: async (data) => {
